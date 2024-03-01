@@ -1,0 +1,21 @@
+{
+  "name": "express-grpc",
+  "version": "1.0.0",
+  "description": "study grpc with expressJs",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "mingi3442",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
